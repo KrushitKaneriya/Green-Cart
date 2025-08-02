@@ -26,6 +26,8 @@ export const sellerLogin = async (req, res) => {
     }
 }
 
+
+
 // Seller isAuth: /api/seller/is-auth
 export const isSellerAuth = async (req, res) => {
     try {
