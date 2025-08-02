@@ -14,9 +14,9 @@ export const AppProvider = ({ children }) => {
     const currency = import.meta.env.VITE_CURRENCY;
 
     const navigate = useNavigate();
-    const [user, setUser] = useState(null);
-    const [isSeller, setIsSeller] = useState(false);
-    const [showUserLogin, setShowUserLogin] = useState(false);
+    const [user, setUser] = useState(null)
+    const [isSeller, setIsSeller] = useState(false)
+    const [showUserLogin, setShowUserLogin] = useState(false)
     const [products, setProducts] = useState([]);
     const [cartItems, setCartItems] = useState({});
     const [searchQuery, setSearchQuery] = useState({})
@@ -26,9 +26,9 @@ export const AppProvider = ({ children }) => {
       try {
         const {data} = await axios.get("/api/seller/is-auth");
         if(data.success) {
-          setIsSeller(true);
+          setIsSeller(true)
         }else{
-          setIsSeller(false);
+          setIsSeller(false)
         }
       } catch (error) {
         setIsSeller(false);
@@ -101,7 +101,7 @@ export const AppProvider = ({ children }) => {
     useEffect(() => {
       fetchSeller();
       fetchProducts();
-    })
+    },[])
 
     const value = {navigate, user, setUser, setIsSeller,isSeller,showUserLogin,setShowUserLogin,products,currency,addToCart,cartItems, updateCartItem,removeFromCart,searchQuery,setSearchQuery,getCartAmount,getCartCount,axios};
 

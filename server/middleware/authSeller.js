@@ -20,4 +20,4 @@ const authSeller = (req, res, next) => {
     }
 }
 
-export default authSeller
+export default authSeller;
