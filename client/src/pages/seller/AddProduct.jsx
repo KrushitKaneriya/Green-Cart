@@ -10,7 +10,7 @@ const AddProduct = () => {
     const [description, setDescription] = useState('');
     const [category, setCategory] = useState('');
     const [price, setPrice] = useState('');
-    const [offerprice, setOfferPrice] = useState('');
+    const [offerPrice, setOfferPrice] = useState('');
 
     const {axios} = useAppContext()
 
@@ -19,11 +19,11 @@ const AddProduct = () => {
            event.preventDefault();
 
            const productData = {
-            name,
-            description: description.split('\n'),
-            category,
-            price,
-            offerPrice,
+                name,
+                description: description.split('\n'),
+                category,
+                price,
+                offerPrice,
             }
 
             const formData = new FormData();
@@ -101,7 +101,7 @@ const AddProduct = () => {
                     </div>
                     <div className="flex-1 flex flex-col gap-1 w-32">
                         <label className="text-base font-medium" htmlFor="offer-price">Offer Price</label>
-                        <input onChange={(e)=>setOfferPrice(e.target.value)} value={offerprice}
+                        <input onChange={(e)=>setOfferPrice(e.target.value)} value={offerPrice}
                         id="offer-price" type="number" placeholder="0" className="outline-none md:py-2.5 py-2 px-3 rounded border border-gray-500/40" required />
                     </div>
                 </div>
