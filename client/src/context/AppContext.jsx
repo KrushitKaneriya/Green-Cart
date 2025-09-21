@@ -145,7 +145,7 @@ const fetchUser = async () => {
       }
     },[cartItems])
 
-    const value = {navigate, user, setUser, setIsSeller,isSeller,showUserLogin,setShowUserLogin,products,currency,addToCart,cartItems, updateCartItem,removeFromCart,searchQuery,setSearchQuery,getCartAmount,getCartCount,axios, fetchProducts};
+    const value = {navigate, user, setUser, setIsSeller,isSeller,showUserLogin,setShowUserLogin,products,currency,addToCart,cartItems, setCartItems, updateCartItem,removeFromCart,searchQuery,setSearchQuery,getCartAmount,getCartCount,axios, fetchProducts};
 
   return <AppContext.Provider value={value}>
       {children}
