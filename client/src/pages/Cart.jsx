@@ -59,6 +59,18 @@ const Cart = () => {
                 }else{
                     toast.error(data.message)
                 }
+            }else{
+                // Place Order with Stripe
+                const {data} = await axios.post('/api/order/stripe', {
+                    userId: user._id,
+                    items: cartArray.map(item=> ({product: item._id, quantity: item.quantity})), address: selectedAddress._id
+                })
+
+                if (data.success) {
+                    window.location.replace(data.url)
+                }else{
+                    toast.error(data.message)
+                }
             }
         } catch (error) {
             toast.error(error.message)
@@ -176,7 +188,7 @@ const Cart = () => {
                 </div>
 
                 <button onClick={placeOrder} className="w-full py-3 mt-6 cursor-pointer bg-primary text-white font-medium hover:bg-primary-dull transition">
-                    {paymentOption === "COD" ? "Place Order" : "Proceed to Payment"}
+                    {paymentOption === "COD" ? "Place Order" : "Proceed to Checkout"}
                 </button>
             </div>
         </div>
