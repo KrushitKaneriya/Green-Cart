@@ -1,2 +1,9 @@
 # Ignore the environment variables file
 server/.env
+
+# React build directory
+/client/build
+
+# Node modules
+/client/node_modules
+/server/node_modules
