@@ -107,8 +107,8 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 * **Krushit Kaneriya**
     * GitHub: [KrushitKaneriya](https://github.com/KrushitKaneriya)
-    * LinkedIn: [Your LinkedIn Profile URL] *(Replace with your URL)*
-    * Portfolio/Website: [Your Personal Website URL] *(Replace with your URL)*
+    * LinkedIn: [Krushit Kaneriya LinkedIn](https://www.linkedin.com/in/krushit-kaneriya-161117388?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B04snXQH0TBaf6%2Bj7Pihgww%3D%3D)
+    * Email: [Krushit Kaneriya Email](mailto:krushitkaneriya@gmail.com)
 
 ## ⚖️ License
 
@@ -119,3 +119,4 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 *(Optional: Add a "Back to top" link at the end for long Readmes)*
 
 [⬆️ Back to top](#-greencart---your-eco-friendly-shopping-companion)
+
