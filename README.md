@@ -116,7 +116,4 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ***
 
-*(Optional: Add a "Back to top" link at the end for long Readmes)*
-
-[⬆️ Back to top](#-greencart---your-eco-friendly-shopping-companion)
 
