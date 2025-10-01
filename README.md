@@ -33,8 +33,8 @@ It aims to be the go-to solution for online shopping, offering a clean interface
 ## 🖼️ Project Showcase
 
 <p align="center">
-  <img src="<img width="1897" height="792" alt="image" src="https://github.com/user-attachments/assets/9b09d704-1a3d-4187-97b4-b9104380d50b" />
-" alt="GreenCart Application Screenshot/Demo" width="800"/>
+  <img width="1897" height="792" alt="image" src="https://github.com/user-attachments/assets/21bd2265-1a1f-4cbe-b3ef-7616f3558636" />
+
 </p>
 
 ## ⚙️ Tech Stack
