@@ -10,7 +10,11 @@
 ---
 
 <p align="center">
-  <img src="https://img.freepik.com/premium-vector/green-shopping-cart-logo-design_101284-53.jpg?w=1480" width="250" alt="GreenCart Logo" />
+
+<img width="132" height="30" alt="logo" src="https://github.com/user-attachments/assets/8b7d374a-d513-4653-8bc1-7cfdabd274a7" />
+
+
+
 </p>
 
 <h2 align="center">🌱 Live. Shop. Go Green.</h2>
@@ -59,9 +63,9 @@ Whether you're browsing for eco-friendly products or managing your own sustainab
 |--------------------|----------------------------------------|
 | **Frontend**       | ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) |
 | **Styling**        | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) |
-| **State Mgmt**     | ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white) / Context API |
+| **State Mgmt**     | ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white) / ![Context API](https://img.shields.io/badge/Context%20API-61DAFB?style=for-the-badge&logo=react&logoColor=white) |
 | **Deployment**     | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) |
-| **Pkg Manager**    | ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white) / yarn |
+| **Pkg Manager**    | ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white) / ![yarn](https://img.shields.io/badge/yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white) |
 
 ---
 
