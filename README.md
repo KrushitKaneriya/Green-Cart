@@ -33,7 +33,8 @@ It aims to be the go-to solution for online shopping, offering a clean interface
 ## 🖼️ Project Showcase
 
 <p align="center">
-  <img src="" alt="GreenCart Application Screenshot/Demo" width="800"/>
+  <img src="<img width="1897" height="792" alt="image" src="https://github.com/user-attachments/assets/9b09d704-1a3d-4187-97b4-b9104380d50b" />
+" alt="GreenCart Application Screenshot/Demo" width="800"/>
 </p>
 
 ## ⚙️ Tech Stack
@@ -115,5 +116,6 @@ If you have a suggestion that would make this better, please fork the repo and c
 Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ***
+
 
 
